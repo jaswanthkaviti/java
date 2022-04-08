@@ -6,6 +6,7 @@ public class calculator{
 		double d1 = input.nextDouble();
 		char op = input.next().charAt(0);
 		double d2 = input.nextDouble();
+		//if starts
 		
 		if(op == '+')
 			System.out.println(d1 + d2);
